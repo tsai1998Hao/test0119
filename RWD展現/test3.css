@@ -1,0 +1,28 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Box styles */
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Box title styles */
+.box-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Box content styles */
+.box-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
