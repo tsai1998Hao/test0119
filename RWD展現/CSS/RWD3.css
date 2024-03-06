@@ -1,0 +1,60 @@
+/* <!-- 左側欄位 --> */
+
+
+.mainAsideLeft{
+    /* border: white 1px solid; */
+    width: 240px;
+    height: 1000px;
+    padding: 10px;
+    
+}
+.mainAsideDivPicandtitle{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+.mainAsideDivPicandtitleDis{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-size: 14px;
+
+}
+.subscribe{
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+.yoruContent{
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* 原本沒有，變小後跑出來 */
+.trans{
+    display: none;
+}
+/* 原本沒有，變小後跑出來 */
+
+.showMore{
+    border-bottom: 1px solid grey;
+    padding-left: 13px;
+    padding-bottom: 30px;  
+}
+.mainAsideDivPicandtitle >i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.mainAsideDivPicandtitleDis >i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.subscribeMaker{
+    height: 24px;
+    margin-right: 20px;
+}
+/* <!-- 左側欄位 --> */

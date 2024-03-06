@@ -1,0 +1,22 @@
+/* 影片 */
+
+.mainDivDivVideos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+
+}
+.mainDivDivDivVideo{
+    width: 15.5%;
+    height: 22%;
+    margin: 8px;
+}
+iframe{
+    border:none;
+}
+.youtuberIcon{
+    height: 35px;
+    margin-right: 10px;
+}
+
+/* 影片 */
