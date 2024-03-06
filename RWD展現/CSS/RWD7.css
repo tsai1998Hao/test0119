@@ -26,10 +26,27 @@
 
 /*三個:1575px-~~~~1313px */
 @media (max-width:1576px){
+
+
+/* 廣告 5 */
+
+.adImg{
+    width: 70%;
+}
+
+
+/* 廣告 5 */
+
+
+/* 影片們 6 */
     .mainDivDivDivVideo{
-        width: 30.5%;
+        width: 25%;
         height: 29%;
+        /* border: 1px solid green; */
+        margin-bottom: 60px;
     }
+
+/* 影片們 6 */
 
 }
 
@@ -40,8 +57,8 @@
 /* 左側欄位 */
     .mainAsideLeft{
         width: 73px;
-        max-width: 73px;
-        /* border: 1px solid pink; */
+        min-width: 73px;
+        border: 1px solid pink;
     }
 
     .mainAsideDivPicandtitle {
@@ -104,14 +121,38 @@
     }
 
 }
+@media (max-width:1155px){
+    .adImgOut{
+        /* margin-left: 5%; */
+        margin-left: 0%;
 
+    }
+}
 /*兩個，左側縮圖:1080px-~~~~px */
 @media (max-width:1081px){
+
+
+/* 左側欄位 3 ㄊㄌ了 */
+.mainAsideLeft{
+    display: none;
+}
+
+/* 左側欄位 3 */
+
+
+/* 上面影片種類 4 */
+    .newEar{
+        display: none;
+    }
+/* 上面影片種類 4 */
+
+
+
+/* 影片們 6 */
     .mainDivDivDivVideo{
         width: 46.5%;
         height: 33%;
     }
-    .newEar{
-        display: none;
-    }
+/* 影片們 6 */
+
 }

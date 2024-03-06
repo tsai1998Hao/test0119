@@ -68,7 +68,7 @@
 .navIconsRight{
     width: 150px;
     min-width: 150px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .navIconsRight >i {
     font-size: 24px;
