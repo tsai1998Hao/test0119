@@ -1,0 +1,35 @@
+/* 廣告 */
+.mainDivDivAd{
+    height: 286px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+.mainDivDivDivRightad{
+    margin-left: 100px;
+}
+
+.mainmainDivDivImgAd{
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.mainDivDivDivDivAddidasBottom{
+    display: flex;
+    /* border: 2px solid yellow; */
+    /* height: 100px; */
+}
+.mainDivDivDivAddidaspic{
+    width: 150px;
+    margin-right: 20px;
+
+}
+.mainDivDivDivDivDivKnowmore{
+    background-color: rgba(62, 166, 255, 1);
+    text-align: center;
+    width: 90px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 7px;
+    padding: 3px;
+}
+/* 廣告 */

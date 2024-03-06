@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+    display: flex;
+}
+
+
+.mainDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- 左側欄位 --> */
+
+
+.mainAsideLeft{
+    /* border: white 1px solid; */
+    width: 240px;
+    height: 1000px;
+    padding: 10px;
+    
+}
+.mainAsideDivPicandtitle{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+.mainAsideDivPicandtitleDis{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    font-size: 14px;
+
+}
+.subscribe{
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+.yoruContent{
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* 原本沒有，變小後跑出來 */
+.trans{
+    display: none;
+}
+/* 原本沒有，變小後跑出來 */
+
+.showMore{
+    border-bottom: 1px solid grey;
+    padding-left: 13px;
+    padding-bottom: 30px;  
+}
+.mainAsideDivPicandtitle >i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.mainAsideDivPicandtitleDis >i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+.subscribeMaker{
+    height: 24px;
+    margin-right: 20px;
+}
+/* <!-- 左側欄位 --> */
+
+
+/* 影片 */
+
+.mainDivDivVideos{
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+
+}
+.mainDivDivDivVideo{
+    width: 15.5%;
+    height: 22%;
+    margin: 8px;
+}
+iframe{
+    border:none;
+}
+.youtuberIcon{
+    height: 35px;
+    margin-right: 10px;
+}
+
+/* 影片 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*六個:2228 */
+/*五個:2227px-~~~~1901px */
+/*四個:1900px-~~~~1576px */
+/*三個:1575px-~~~~1313px */
+/*三個，左側縮圖:1312px-~~~~1081px */
+/*兩個，左側縮圖:1080px-~~~~px */
+
+
+/*五個:2227px-~~~~1901px */
+@media (max-width:2228px){
+    .mainDivDivDivVideo{
+        width: 18.5%;
+        height: 25.5%;
+        /* border: 2px solid red; */
+    }
+    
+}
+
+/*四個:1900px-~~~~1576px */
+@media (max-width:1901px){
+    .mainDivDivDivVideo{
+        width: 23%;
+        height: 27%;
+    }
+}
+
+/*三個:1575px-~~~~1313px */
+@media (max-width:1576px){
+    .mainDivDivDivVideo{
+        width: 30.5%;
+        height: 29%;
+    }
+
+}
+
+
+/*!!!!!!!!!!!!三個，左側縮圖:1312px-~~~~1081px */
+@media (max-width:1313px){
+
+/* 左側欄位 */
+    .mainAsideLeft{
+        width: 73px;
+        max-width: 73px;
+        /* border: 1px solid pink; */
+    }
+
+    .mainAsideDivPicandtitle {
+        /* border: 2px solid yellow; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .subscribe{
+        border: none;
+    }
+    .mainAsideDivPicandtitleDis{
+        /* border: 2px solid yellow; */
+        display: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        /* 要注意到哈哈 */
+        padding: 0;
+        /* 要注意到哈哈 */
+
+    }
+    .mainAsideDivPicandtitle >i{
+        /* border: 1px solid red; */
+        /* 要注意到哈哈 */
+        margin-bottom: 10px;
+        margin-right: 0;
+        /* 要注意到哈哈 */
+    }
+    .mainAsideDivPicandtitleDis >i{
+        /* border: 1px solid red; */
+        /* 要注意到哈哈 */
+        margin-right: 0;
+        /* 要注意到哈哈 */
+
+    }
+
+
+
+
+    .mainAsideDivPicandtitle >div {
+        /* border:  solid 2px blue; */
+        font-size: 10px;
+    }
+    .mainAsideDivPicandtitleDis >div{
+        /* border:  solid 2px blue; */
+        font-size: 10px;
+
+    }
+/* 左側欄位 */
+
+    .mainDivDivDivVideo{
+        width: 31%;
+        height: 26.5%;
+
+    }
+
+}
+
+/*兩個，左側縮圖:1080px-~~~~px */
+@media (max-width:1081px){
+    .mainDivDivDivVideo{
+        width: 46.5%;
+        height: 33%;
+    }
+    .newEar{
+        display: none;
+    }
+}

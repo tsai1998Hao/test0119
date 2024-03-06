@@ -1,0 +1,79 @@
+/* <!-- 上面欄位 --> */
+
+
+.nav{
+    /* border: 1px solid white; */
+    height: 56px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navImg{
+    width: 90px;
+    height: 20px;
+    /* border: 1px solid red; */
+}
+.searchOut{
+    /* width: 60%; */
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.searchDiv{
+    width: 40.5vw;
+    /* border: 1px solid pink; */
+}
+.searchInput{
+    height: 34px;
+    width: 36.3vw;
+    background-color: black;
+    color: #f1f1f1;
+    border: 0.5px solid grey;
+    border-radius: 40px 0px 0px 40px;
+    padding-left: 17px ;
+}
+
+.glassButton{
+    color: #f1f1f1;
+    border: none;
+    height: 39px;
+    width: 63px;
+    margin-right: 20px;
+    border: 0.5px solid #f1f1f1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: -50px;
+    background-color:  rgba(34, 34, 34, 1);
+    position: absolute;
+    right: 29vw;
+
+}
+
+.navDivMicro{
+    background-color: rgba(34, 34, 34, 1);
+    color: #f1f1f1;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.navIconsRight{
+    width: 150px;
+    min-width: 150px;
+    border: 1px solid blue;
+}
+.navIconsRight >i {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+
+/* <!-- 上面欄位 --> */
