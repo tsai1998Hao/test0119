@@ -11,8 +11,13 @@
     height: 22%;
     margin: 8px;
 }
-iframe{
-    border:none;
+.videoOut{
+    width: 320px;
+    height: 196px;
+}
+.video{
+    width: 320px;
+    height: 176px;
 }
 .youtuberIcon{
     height: 35px;

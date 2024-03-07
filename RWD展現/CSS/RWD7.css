@@ -42,23 +42,29 @@
     .mainDivDivDivVideo{
         width: 25%;
         height: 29%;
-        /* border: 1px solid green; */
+        /* border: 10px solid green; */
         margin-bottom: 60px;
     }
 
+.videoOut{
+ /* border: 20px solid hotpink; */
+}
+.video{
+    /* width: 70%; */
+}
 /* 影片們 6 */
 
 }
 
 
+
 /*!!!!!!!!!!!!三個，左側縮圖:1312px-~~~~1081px */
-@media (max-width:1313px){
+@media (max-width:1473px){
 
 /* 左側欄位 */
     .mainAsideLeft{
         width: 73px;
         min-width: 73px;
-        border: 1px solid pink;
     }
 
     .mainAsideDivPicandtitle {
@@ -119,6 +125,10 @@
         height: 26.5%;
 
     }
+ 
+
+
+
 
 }
 @media (max-width:1155px){
@@ -152,7 +162,27 @@
 .mainDivDivVideos{
     justify-content: center;
 }
-
 /* 影片們 6 */
 
+}
+
+@media  (max-width: 923px){
+    /* .mainDivDivDivVideos{
+        display: grid;
+        background: darkblue;
+    }
+    .mainDivDivDivVideo{
+        grid-template-columns: 100px 100px; 
+        grid-template-rows: 50px 50px;
+    } */
+    .mainDivDivVideos{
+        border: 10px solid green;
+        /* display: grid; */
+
+    }
+    .mainDivDivDivVideo{
+
+
+}
+    
 }
