@@ -28,6 +28,7 @@
 .searchDiv{
     width: 40.5vw;
     /* border: 1px solid pink; */
+    position: relative;
 }
 .searchInput{
     height: 34px;
@@ -36,22 +37,23 @@
     color: #f1f1f1;
     border: 0.5px solid grey;
     border-radius: 40px 0px 0px 40px;
-    padding-left: 17px ;
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 .glassButton{
     color: #f1f1f1;
     border: none;
-    height: 39px;
+    height: 42px;
     width: 63px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border: 0.5px solid #f1f1f1;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: -50px;
     background-color:  rgba(34, 34, 34, 1);
     position: absolute;
-    right: 29vw;
+    right: 68 px;
 
 }
 

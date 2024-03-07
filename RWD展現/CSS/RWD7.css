@@ -149,10 +149,10 @@
 
 
 /* 影片們 6 */
-    .mainDivDivDivVideo{
-        width: 46.5%;
-        height: 33%;
-    }
+.mainDivDivVideos{
+    justify-content: center;
+}
+
 /* 影片們 6 */
 
 }
