@@ -1,3 +1,5 @@
+/* <!-- 上面影片種類 --> */
+
 .mainDivDivtypes{
     height: 56px;
     /* border: 1px solid pink; */
@@ -5,7 +7,6 @@
     align-items: center;
     margin-bottom: 30px;
 }
-/* <!-- 上面影片種類 --> */
 .mainDivDivDivType{
     width: 60px;
     min-width: 60px;
@@ -18,6 +19,9 @@
     text-align: center;
     writing-mode: horizontal-tb;
 }
+.allType{
+    display: none;
+}
 .newUpload{
     min-width: 100px;
     width: 100px;   
@@ -26,4 +30,5 @@
     min-width: 180px;
     width: 180px;
 }
+
 /* <!-- 上面影片種類 --> */

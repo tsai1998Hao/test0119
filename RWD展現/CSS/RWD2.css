@@ -11,19 +11,23 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+.navInDiv{
+    display: flex ;align-items: center;
+}
 .navImg{
     width: 90px;
     height: 20px;
     /* border: 1px solid red; */
 }
 .searchOut{
-    /* width: 60%; */
-    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+}
+.searchout0{
+    display: flex;
+    justify-content: center;
+    width: 50.3vw;
 }
 .searchDiv{
     width: 40.5vw;
@@ -46,7 +50,6 @@
     border: none;
     height: 42px;
     width: 63px;
-    /* margin-right: 20px; */
     border: 0.5px solid #f1f1f1;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
