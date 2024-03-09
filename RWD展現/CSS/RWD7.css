@@ -58,13 +58,13 @@
 /*!!!!!!!!!!!!三個，左側縮圖:1312px-~~~~1081px */
 @media (max-width:1473px){
 
-/* 左側欄位 */
+/* 左側欄位 3*/
     .mainAsideLeft{
         width: 73px;
         min-width: 73px;
     }
 
-    .mainAsideDivPicandtitle {
+    .aside_icon_title {
         /* border: 2px solid yellow; */
         display: flex;
         flex-wrap: wrap;
@@ -76,7 +76,7 @@
     .subscribe{
         border: none;
     }
-    .mainAsideDivPicandtitleDis{
+    .aside_icon_titleDis{
         /* border: 2px solid yellow; */
         display: none;
         flex-direction: column;
@@ -88,14 +88,14 @@
         /* 要注意到哈哈 */
 
     }
-    .mainAsideDivPicandtitle >i{
+    .aside_icon_title >i{
         /* border: 1px solid red; */
         /* 要注意到哈哈 */
         margin-bottom: 10px;
         margin-right: 0;
         /* 要注意到哈哈 */
     }
-    .mainAsideDivPicandtitleDis >i{
+    .aside_icon_titleDis >i{
         /* border: 1px solid red; */
         /* 要注意到哈哈 */
         margin-right: 0;
@@ -106,16 +106,27 @@
 
 
 
-    .mainAsideDivPicandtitle >div {
+    .aside_icon_title >div {
         /* border:  solid 2px blue; */
         font-size: 10px;
     }
-    .mainAsideDivPicandtitleDis >div{
-        /* border:  solid 2px blue; */
+    .aside_icon_titleDis >div{
+        /* border:  solid 2px blue;mainDivDivtypes */
         font-size: 10px;
 
     }
-/* 左側欄位 */
+/* 左側欄位 3*/
+/* <!-- 上面影片種類 4 --> */
+
+    .newEar{
+        display: none;
+    }
+
+/* <!-- 上面影片種類 4 --> */
+
+
+
+/* <!-- 影片們 6--> */
 
     .mainDivDivDivVideo{
         width: 31%;
@@ -123,6 +134,7 @@
 
     }
  
+    /* <!-- 影片們 6--> */
 
 
 
@@ -215,12 +227,15 @@
 @media (max-width:820px){
 
     /* <!-- 上面影片種類 4 --> */
-    .mainDivDivDivType{
+    .type{
         display: none;
         width: 100px;
     }
-    .allType{
+    .all_type{
         display: block;
+        /* border: 2px solid green; */
+        /* width: 2002px; */
+        /* height: 100px; */
     }
 
     /* <!-- 上面影片種類 4 --> */

@@ -1,13 +1,13 @@
 /* <!-- 上面影片種類 --> */
 
-.mainDivDivtypes{
+.whole_types{
     height: 56px;
     /* border: 1px solid pink; */
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
-.mainDivDivDivType{
+.type{
     width: 60px;
     min-width: 60px;
     height: 22px;
@@ -19,7 +19,7 @@
     text-align: center;
     writing-mode: horizontal-tb;
 }
-.allType{
+.all_type{
     display: none;
 }
 .newUpload{

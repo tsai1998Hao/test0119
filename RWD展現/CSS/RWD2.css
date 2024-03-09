@@ -2,9 +2,8 @@
 
 
 .nav{
-    /* border: 1px solid white; */
-    height: 56px;
     width: 96%;
+    height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,13 +11,17 @@
     padding-right: 30px;
 }
 .navInDiv{
-    display: flex ;align-items: center;
+    display: flex ;
+    align-items: center;
 }
 .navImg{
     width: 90px;
     height: 20px;
     /* border: 1px solid red; */
 }
+
+
+
 .searchOut{
     display: flex;
     align-items: center;
@@ -31,7 +34,6 @@
 }
 .searchDiv{
     width: 40.5vw;
-    /* border: 1px solid pink; */
     position: relative;
 }
 .searchInput{
@@ -73,7 +75,6 @@
 .navIconsRight{
     width: 150px;
     min-width: 150px;
-    /* border: 1px solid blue; */
 }
 .navIconsRight >i {
     font-size: 24px;

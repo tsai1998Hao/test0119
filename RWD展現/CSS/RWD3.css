@@ -2,13 +2,12 @@
 
 
 .mainAsideLeft{
-    /* border: white 1px solid; */
     width: 240px;
     height: 1000px;
     padding: 10px;
     
 }
-.mainAsideDivPicandtitle{
+.aside_icon_title{
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -17,7 +16,7 @@
     font-size: 14px;
     /* border: 1px solid red; */
 }
-.mainAsideDivPicandtitleDis{
+.aside_icon_titleDis{
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -45,11 +44,11 @@
     padding-left: 13px;
     padding-bottom: 30px;  
 }
-.mainAsideDivPicandtitle >i {
+.aside_icon_title >i {
     font-size: 24px;
     margin-right: 20px;
 }
-.mainAsideDivPicandtitleDis >i {
+.aside_icon_titleDis >i {
     font-size: 24px;
     margin-right: 20px;
 }
